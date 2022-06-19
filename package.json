@@ -1,0 +1,31 @@
+{
+    "name": "aya-vue3-extension-pack",
+    "displayName": "Aya Vue3 extension Pack",
+    "description": "A collection of extensions for working with Vue3/Volar Applications in VS Code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/amayakite/aya-vue3-extension-pack"
+    },
+    "icon": "vuejs-logo.png",
+    "extensionPack": [
+        "Vue.volar",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "sibiraj-s.vscode-scss-formatter",
+        "formulahendry.auto-rename-tag",
+        "formulahendry.auto-close-tag",
+        "christian-kohler.path-intellisense",
+        "mikestead.dotenv",
+        "steoates.autoimport",
+        "xabikos.javascriptsnippets",
+        "ruige24601.vite"
+
+    ]
+}
