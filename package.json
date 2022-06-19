@@ -1,9 +1,10 @@
 {
     "name": "aya-vue3-extension-pack",
     "displayName": "Aya Vue3 extension Pack",
+    "publisher": "Amayakite",
     "description": "A collection of extensions for working with Vue3/Volar Applications in VS Code",
     "license": "MIT",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "engines": {
         "vscode": "^1.68.0"
     },
@@ -12,8 +13,7 @@
         "vue3",
         "volar",
         "aya",
-        "extension",
-        "pack"
+        "extension pack"
     ],
     "categories": [
         "Extension Packs"
@@ -38,6 +38,7 @@
         "ruige24601.vite",
         "stylelint.vscode-stylelint",
         "pranaygp.vscode-css-peek",
-        "bradlc.vscode-tailwindcss"
+        "bradlc.vscode-tailwindcss",
+        "quicktype.quicktype"
     ]
 }
