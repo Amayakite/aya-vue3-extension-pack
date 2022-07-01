@@ -4,7 +4,7 @@
     "publisher": "Amayakite",
     "description": "A collection of extensions for working with Vue3/Volar Applications in VS Code",
     "license": "MIT",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "engines": {
         "vscode": "^1.68.0"
     },
@@ -39,6 +39,7 @@
         "stylelint.vscode-stylelint",
         "pranaygp.vscode-css-peek",
         "bradlc.vscode-tailwindcss",
-        "quicktype.quicktype"
+        "quicktype.quicktype",
+        "hollowtree.vue-snippets"
     ]
 }

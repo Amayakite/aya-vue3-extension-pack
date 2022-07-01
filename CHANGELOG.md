@@ -4,6 +4,6 @@ All notable changes to the "aya-vue3-extension-pack" extension pack will be docu
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [0.0.5]
 
-- Initial release
+- Add vue-snippets
