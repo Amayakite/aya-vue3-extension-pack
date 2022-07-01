@@ -4,7 +4,7 @@
     "publisher": "Amayakite",
     "description": "A collection of extensions for working with Vue3/Volar Applications in VS Code",
     "license": "MIT",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "engines": {
         "vscode": "^1.68.0"
     },
@@ -16,7 +16,8 @@
         "extension pack"
     ],
     "categories": [
-        "Extension Packs"
+        "Extension Packs",
+        "Snippets"
     ],
     "repository": {
         "type": "git",
@@ -41,5 +42,13 @@
         "bradlc.vscode-tailwindcss",
         "quicktype.quicktype",
         "hollowtree.vue-snippets"
-    ]
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "vue",
+                "path": "./snippets/vue.json"
+            }
+        ]
+    }
 }

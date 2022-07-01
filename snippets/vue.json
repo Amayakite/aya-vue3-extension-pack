@@ -1,0 +1,28 @@
+{
+    "Vue3 TypeScript Template": {
+        "prefix": "vuets",
+        "body": [
+            "<template>",
+            "\t<div>\n\t\t$1\n\t</div>",
+            "</template>\n",
+            "<script lang=\"ts\" setup>\n",
+            "</script>\n",
+            "<style lang=\"scss\">\n\n",
+            "</style>"
+        ],
+        "description": "Vue3 TypeScript(SCSS) Template"
+    },
+    "Vue3 JavaScript Template": {
+        "prefix": "vuejs",
+        "body": [
+            "<template>",
+            "\t<div>\n\t\t$1\n\t</div>",
+            "</template>\n",
+            "<script setup>\n",
+            "</script>\n",
+            "<style lang=\"scss\">\n\n",
+            "</style>"
+        ],
+        "description": "Vue3 JavaScript(SCSS) Template"
+    }
+}
