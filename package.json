@@ -4,7 +4,7 @@
     "publisher": "Amayakite",
     "description": "A collection of extensions for working with Vue3/Volar Applications in VS Code",
     "license": "MIT",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "engines": {
         "vscode": "^1.68.0"
     },
@@ -27,6 +27,7 @@
     "icon": "vuejs-logo.png",
     "extensionPack": [
         "Vue.volar",
+        "Vue.vscode-typescript-vue-plugin",
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
         "sibiraj-s.vscode-scss-formatter",
@@ -36,13 +37,12 @@
         "mikestead.dotenv",
         "steoates.autoimport",
         "xabikos.javascriptsnippets",
-        "antfu.vite",
-        "stylelint.vscode-stylelint",
-        "pranaygp.vscode-css-peek",
         "bradlc.vscode-tailwindcss",
-        "quicktype.quicktype",
         "hollowtree.vue-snippets",
-        "usernamehw.errorlens"
+        "usernamehw.errorlens",
+        "Gruntfuggly.todo-tree",
+        "pflannery.vscode-versionlens",
+        "wix.vscode-import-cost"
     ],
     "contributes": {
         "snippets": [

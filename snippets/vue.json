@@ -7,7 +7,7 @@
             "</template>\n",
             "<script lang=\"ts\" setup>\n",
             "</script>\n",
-            "<style lang=\"scss\">\n\n",
+            "<style lang=\"scss\" scoped>\n\n",
             "</style>"
         ],
         "description": "Vue3 TypeScript(SCSS) Template"
@@ -20,9 +20,55 @@
             "</template>\n",
             "<script setup>\n",
             "</script>\n",
-            "<style lang=\"scss\">\n\n",
+            "<style lang=\"scss\" scoped>\n\n",
             "</style>"
         ],
         "description": "Vue3 JavaScript(SCSS) Template"
+    },
+    "Vue Javascript defineComponent Template":{
+        "prefix": "vuedcjs",
+        "body": [
+            "<template>",
+            "\t<div>\n\t\t$1\n\t</div>",
+            "</template>\n",
+            "<script>",
+            "import { defineComponent } from 'vue';\n",
+            "export default defineComponent({\n",
+            "\tname: '',\n",
+            "\tprops: {},\n",
+            "\tdata() {\n",
+            "\t\treturn {\n",
+            "\t\t\t$2\n",
+            "\t\t}\n",
+            "\t},\n",
+            "\tcomputed: {},\n",
+            "\twatch: {},\n",
+            "\tmethods: {},\n",
+            "\tcomponents: {},\n",
+            "\tsetup() {\n",
+            "\t\treturn {\n",
+            "\t\t\t$3\n",
+            "\t\t}\n",
+            "\t}\n",
+            "});\n",
+            "</script>\n",
+            "<style lang=\"scss\" scoped>\n\n",
+            "</style>"
+        ],
+        "description": "Vue Javascript(SCSS) defineComponent Template"
+    },
+    "Created refObject": {
+        "prefix": "vref",
+        "body": [
+            "const $1 = ref($2);"
+        ],
+        "description": "Created refObject"
+    },
+    "Get Current Proxy": {
+        "prefix": "vproxy",
+        "body": [
+            "const { proxy } = getCurrentInstance();"
+        ],
+        "description": "Get Current Vue Proxy"
     }
 }
