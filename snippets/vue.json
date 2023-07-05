@@ -70,5 +70,25 @@
             "const { proxy } = getCurrentInstance();"
         ],
         "description": "Get Current Vue Proxy"
+    },
+    "Created Watch In Setup": {
+        "prefix": "vwatch",
+        "body": [
+            "watch($1, (newValue, oldValue) => {",
+            "\t$2",
+            "}, { deep: true });"
+        ],
+        "description": "Created Watch In Setup"
+    },
+    "Created Computed": {
+        "prefix": "vcomputed",
+        "body": [
+            "const $1 = computed(() => {",
+            "\t$2",
+            "});"
+        ],
+        "description": "Created Computed"
     }
+
+    
 }
