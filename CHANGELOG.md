@@ -4,6 +4,19 @@ All notable changes to the "aya-vue3-extension-pack" extension pack will be docu
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.1.0] - 2024-07-11
+
+### Added
+
+- Add code snippets
+
+### Changed
+
+- Update README.md(EsLint Auto Fix Config)
+
+### Removed
+
+- Deprecated extensions and Tailwind CSS have been removed (as UnoCss is now likely used in over half of the projects).
 
 ## [0.0.9] - 2023-07-05
 

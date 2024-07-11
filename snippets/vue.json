@@ -1,6 +1,8 @@
 {
     "Vue3 TypeScript Template": {
-        "prefix": "vuets",
+        "prefix": [
+            "vuets","<vuets>"
+        ],
         "body": [
             "<template>",
             "\t<div>\n\t\t$1\n\t</div>",
@@ -13,7 +15,9 @@
         "description": "Vue3 TypeScript(SCSS) Template"
     },
     "Vue3 JavaScript Template": {
-        "prefix": "vuejs",
+        "prefix": [
+            "vuejs","<vuejs>"
+        ],
         "body": [
             "<template>",
             "\t<div>\n\t\t$1\n\t</div>",
@@ -25,8 +29,28 @@
         ],
         "description": "Vue3 JavaScript(SCSS) Template"
     },
+    "Vue2 JavaScript Template": {
+        "prefix": [
+            "vue2js","<vue2js>"
+        ],
+        "body": [
+            "<template>",
+            "\t<div>\n\t\t$1\n\t</div>",
+            "</template>\n",
+            "<script>\n",
+            "\texport default {\n",
+            "\t$2\n",
+            "}",
+            "</script>\n",
+            "<style lang=\"scss\" scoped>\n\n",
+            "</style>"
+        ],
+        "description": "Vue2 JavaScript(SCSS) Template"
+    },
     "Vue Javascript defineComponent Template":{
-        "prefix": "vuedcjs",
+        "prefix": [
+            "vuedcjs","<vuedcjs>"
+        ],
         "body": [
             "<template>",
             "\t<div>\n\t\t$1\n\t</div>",

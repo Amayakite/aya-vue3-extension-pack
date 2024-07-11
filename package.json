@@ -4,7 +4,7 @@
     "publisher": "Amayakite",
     "description": "A collection of extensions for working with Vue3/Volar Applications in VS Code",
     "license": "MIT",
-    "version": "0.0.9",
+    "version": "0.1.0",
     "engines": {
         "vscode": "^1.68.0"
     },
@@ -27,7 +27,6 @@
     "icon": "vuejs-logo.png",
     "extensionPack": [
         "Vue.volar",
-        "Vue.vscode-typescript-vue-plugin",
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
         "sibiraj-s.vscode-scss-formatter",
